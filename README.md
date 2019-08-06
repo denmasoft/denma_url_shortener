@@ -40,7 +40,7 @@ Instructions
 2. cd denma_url_shortener
 3. npm install
 4. npm start 
-5. Install and open Postman, import json file "denmaUrlShortener.postman_collection.json" which is in the root directory of the project
+5. Install and open Postman, import json file "DenmaUrlShortener.postman_collection.json" which is in the root directory of the project
 
 Automated Build
 ---

@@ -39,6 +39,15 @@ module.exports = class {
       }
   }
 
+  async findShortUrl(shortUrl) {
+    try {
+        let url = await UrlModel.findOne({shortUrl:shortUrl});
+        return url;
+    }catch (e) {
+        throw e;
+    }
+  }
+
   async findAll() {
       try{
           let urls;

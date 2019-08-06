@@ -1,9 +1,9 @@
 
-const shortenUrl = require('../use_cases/url/shortenUrl');
-const showUrl = require('../use_cases/url/showUrl');
+const shortenUrl = require('@use_cases/url/shortenUrl');
+const showUrl = require('@use_cases/url/showUrl');
 
-const { urlRepository } = require('../repositories');
-const { urlService } = require('../services');
+const { urlRepository } = require('@repositories');
+const { urlService } = require('@services');
 
 module.exports = {
   async shortenUrl(data) {

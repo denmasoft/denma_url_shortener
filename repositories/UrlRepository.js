@@ -1,4 +1,4 @@
-const MongoDbUrlRepository = require('../repositories_interfaces/mongodb/MongoDbUrlRepository');
+const MongoDbUrlRepository = require('@repositories_interfaces/mongodb/MongoDbUrlRepository');
 
 class UrlRepository extends MongoDbUrlRepository {
   findShortUrl(shortUrl) {

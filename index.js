@@ -1,7 +1,7 @@
+require('module-alias/register');
 const path = require('path');
 const os = require('os');
 const SocketCluster = require('socketcluster');
-
 // eslint-disable-next-line no-unused-vars
 const socketCluster = new SocketCluster({
   workers: os.cpus.length,

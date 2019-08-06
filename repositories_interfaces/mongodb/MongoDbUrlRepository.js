@@ -1,5 +1,5 @@
 
-const UrlModel = require('../../remote_models/mongodb/Url');
+const UrlModel = require('@remote_models/mongodb/Url');
 module.exports = class {
   constructor() {}
   async persist(urlModel) {

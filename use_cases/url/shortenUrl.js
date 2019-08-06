@@ -1,6 +1,6 @@
 
 const moment = require('moment');
-const UrlModel = require('../../models/Url');
+const UrlModel = require('@models/Url');
 
 module.exports = async (url, { urlRepository, urlService }) => {
   try {

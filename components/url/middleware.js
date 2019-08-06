@@ -1,5 +1,5 @@
 const factory = require('./factory');
-const Response = require('../../Response');
+const Response = require('@Response');
 
 const middleware = {
   async shortenUrl(req, res) {

@@ -1,4 +1,4 @@
-const urlCtrl = require('../../controllers/urlCtrl');
+const urlCtrl = require('@controllers/urlCtrl');
 
 const factory = {
   async shortenUrl(data) {

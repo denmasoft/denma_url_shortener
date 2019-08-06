@@ -20,6 +20,7 @@
     "glob": "^7.1.2",
     "loadash": "^1.0.0",
     "lodash": "^4.17.15",
+    "module-alias": "^2.2.1",
     "moment": "^2.24.0",
     "mongoose": "^5.6.8",
     "node-cron": "^1.2.1",
@@ -38,5 +39,18 @@
     "eslint-plugin-import": "^2.18.2",
     "mocha": "^6.2.0",
     "supertest": "^4.0.2"
+  },
+  "_moduleAliases": {
+    "@root"      : ".",
+    "@Response": "Response",
+    "@config":    "config",
+    "@models": "models",
+    "@repositories_interfaces": "repositories_interfaces",
+    "@components"      : "components",
+    "@controllers": "controllers",
+    "@remote_models": "remote_models",
+    "@use_cases": "use_cases",
+    "@repositories": "repositories",
+    "@services": "services"
   }
 }

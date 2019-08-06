@@ -1,3 +1,4 @@
+require('module-alias/register');
 const SCWorker = require('socketcluster/scworker');
 const mongoose = require('mongoose');
 const app = require('./app');

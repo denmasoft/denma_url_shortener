@@ -1,5 +1,5 @@
 const shortid = require('shortid');
-const { domainUrl } = require('../../config');
+const { domainUrl } = require('@config');
 class UrlService {
   constructor() {}
 

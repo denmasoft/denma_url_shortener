@@ -36,7 +36,7 @@ Prerequisites
 Instructions
 ---
 1. Clone project: 
-	git clone https://github.com/denmasoft/denma-url_shortener.git
+	git clone https://github.com/denmasoft/denma_url_shortener.git
 2. cd denma_url_shortener
 3. npm install
 4. npm start 

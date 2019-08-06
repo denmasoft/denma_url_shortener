@@ -30,22 +30,13 @@ module.exports = class {
       }
   }
 
-  async find(longUrl) {
+  async find(query) {
       try {
-          let url = await UrlModel.findOne({longUrl:longUrl});
+          let url = await UrlModel.findOne(query);
           return url;
       }catch (e) {
           throw e;
       }
-  }
-
-  async findShortUrl(shortUrl) {
-    try {
-        let url = await UrlModel.findOne({shortUrl:shortUrl});
-        return url;
-    }catch (e) {
-        throw e;
-    }
   }
 
   async findAll() {

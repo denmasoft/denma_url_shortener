@@ -1,30 +1,8 @@
+const MongoDbUrlRepository = require('../repositories_interfaces/mongodb/MongoDbUrlRepository');
 
-module.exports = class {
-  constructor(repository) {
-    this.repository = repository;
-  }
-
-  persist(UrlModel) {
-    return this.repository.persist(UrlModel);
-  }
-
-  update(UrlModel) {
-    return this.repository.update(UrlModel);
-  }
-
-  remove(uid) {
-    return this.repository.remove(uid);
-  }
-
-  find(longUrl) {
-    return this.repository.find(longUrl);
-  }
-
+class UrlRepository extends MongoDbUrlRepository {
   findShortUrl(shortUrl) {
-    return this.repository.findShortUrl(shortUrl);
+    return this.find({ shortUrl });
   }
-
-  findAll() {
-    return this.repository.findAll();
-  }
-};
+}
+module.exports = UrlRepository;
